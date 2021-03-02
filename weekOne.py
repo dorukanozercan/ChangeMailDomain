@@ -1,4 +1,3 @@
-
 def replace_domain(current_email, old_domain, new_domain):
     if "@" + old_domain in current_email:
         index = current_email.index("@")
